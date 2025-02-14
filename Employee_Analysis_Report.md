@@ -30,3 +30,5 @@ The figure below shows the dashboard.
   <figcaption>Figure: Employee Analysis Dashboard</figcaption>
 </figure>
 <br/><br/>
+
+Here is the link to the [Interactive Dashboard](https://lookerstudio.google.com/reporting/c54e569e-1831-43e9-88af-fc572804fe6c). You can play around with the dashboard.
