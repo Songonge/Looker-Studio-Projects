@@ -11,10 +11,12 @@
 7. [Conclusion](#conclusion)
 
 ## Introduction
-This project focuses on analyzing employee data from different countries and providing insights regarding leadership roles, years of experience, industries, and leadership positions.
+Looker Studio is a data visualization platform where you can create reports and build dashboards, just as you would with Power BI or Tableau.  
+
+This project focuses on analyzing employee data from different countries and providing insights regarding leadership roles, years of experience, industries, and leadership positions. 
 
 ## Project Description
-In this project, the following were addressed:  
+The project specifically analyzes employee demographics within different departments and leadership roles for different countries. In this project, the following were addressed:  
 1. Providing KPIs from the analysis
 2. Creating Visuals to uncover insights from the data.
 3. Building a dashboard to showcase everything in one place.
@@ -72,9 +74,15 @@ Analyzing the data provided the following insights:
 3. Number of distinct countries analyzed: 7
 4. Number of distinct states: 10
 
+> [!Note]
+> One feature that I love about Looker Studio is the Reset button that appears on the top left corner of the visual when you interact with the visual. This makes it easy to go back to the original state of that specific visual or the entire dashboard.
+
 
 ## Conclusion
-This project provided a comprehensive analysis of the employee data using **Looker Studio**. By leveraging data cleaning, analysis, and visualization techniques, key insights about leadership roles, years of experience, reasons for transfer from one role to another, and the number of industries by country were uncovered. 
+This project provided a comprehensive analysis of the employee data using **Looker Studio**. By leveraging data cleaning, analysis, and visualization techniques, key insights about leadership roles, years of experience, reasons for transfer from one role to another, and the number of industries by country were uncovered.  
+
+Building this dashboard reinforced my belief that data tells a story. So, having the right tools and skills helps to unlock actionable insights and provide recommendations for data-driven decision-making.
+
 
 
 <br/>
