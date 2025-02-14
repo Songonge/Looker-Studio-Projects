@@ -1,2 +1,2 @@
 # Looker-Studio-Projects
-This directory contains project completed on Looker Studio.
+This repository contains projects completed on Looker Studio.
