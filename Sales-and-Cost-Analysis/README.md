@@ -5,7 +5,7 @@
 1. [Overview](#overview)
 2. [Problem Statement](#Problem-Statement)
 3. [Project Objectives](#Project-Objectives)
-4. [Data & Tools](#Data-&-Tools)
+4. [Data & Tools](#Data-\&-Tools)
 5. [Data Cleaning](#Data-Cleaning)
 6. [Data Analysis](#Data-Analysis)
 7. [Data Visualization and Dashboard Design](#Data-Visualization-and-Dashboard-Design)
