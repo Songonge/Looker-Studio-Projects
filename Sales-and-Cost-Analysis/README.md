@@ -143,6 +143,9 @@ Average Discount = AVERAGE(Discount)
   * North Jasmine: $2.5K sales, $2.5K cost  
   * **Observation**: Margins are narrow across cities.
 
+* **Top Category**  
+  * Furniture: $125.2K sales, $114,6K cost
+
 * **Top Sub-Categories**  
   * High Sales
     * Binders: $53.7K sales, $48.8K cost
@@ -186,6 +189,9 @@ Average Discount = AVERAGE(Discount)
   * Johnsonland: 20
   * Brianberg: 20
   * South Neil: 18 
+
+* **Top Category**  
+  * Office Supplies: 961
 
 * **Top Sub-Categories**  
   * High Quantity
