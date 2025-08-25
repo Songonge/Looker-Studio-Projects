@@ -208,7 +208,7 @@ Average Discount = AVERAGE(Discount)
   * The East region leads in quantity (736), followed by the South (725).
   * The West region lags behind with 643 in quantity.
 
-* **Seasonality  
+* **Seasonality**  
   * Peak months: September (289), followed by January (267).
   * Low months: May (191), July (186).
   * Suggests opportunity to run targeted campaigns in low months.
