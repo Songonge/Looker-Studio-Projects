@@ -1,7 +1,7 @@
 # Project: Employee Analysis Report
 ***
 
-## Table of Content
+## Table of Contents
 1. [Introduction](#introduction)
 2. [Project Description](#project-description)
 3. [About the Dataset](#About-the-dataset)
@@ -43,30 +43,30 @@ The dataset was created in **ChatGPT**. I wrote a prompt and asked **ChatGPT** t
 ## Data Visualization in Looker Studio
 In Looker Studio, Several visuals were created.  
 1. Cards for KPIs
-2. Donut charts For the Number of males and females, Employee degrees, Reasons for transfer, and Number of countries
-3. Bar charts for The total years of experience by country and the number of industries by country
+2. Donut charts for the Number of males and females, Employee degrees, Reasons for transfer, and Number of countries
+3. Bar charts for the total years of experience by country and the number of industries by country
 4. Heat map for the total years of experience by leadership position
 5. Combo chart for total years of experience and total years in the role by year
 6. Slicers to filter data on each visual
 
-The figure below shows the dashboard.
-
+| Figure: Employee Analysis Dashboard |
+| :------------: |
 <figure>
   <img src="https://github.com/Songonge/Looker-Studio-Projects/blob/main/Employee_Analysis_Dashboard.png" width=100% height=100% alt="alt text">
-  <figcaption>Figure: Employee Analysis Dashboard</figcaption>
+<!--   <figcaption>Figure: Employee Analysis Dashboard</figcaption> -->
 </figure>
-<br/><br/>
+<!-- <br/><br/> -->
 
 Here is the link to the [Interactive Dashboard](https://lookerstudio.google.com/reporting/c54e569e-1831-43e9-88af-fc572804fe6c). You can play around with the dashboard.
 
 
 ## Uncovering Insights
 Analyzing the data provided the following insights:  
-1. India is the top country with the maximum years of experience followed by the USA and Germany
-2. The USA is the country with more industries followed by Germany and India
+1. India is the top country with the maximum years of experience, followed by the USA and Germany
+2. The USA is the country with the most industries, followed by Germany and India
 3. The CFO leadership position is the one with the maximum years of experience.
-4. The majority of employees hold an MSc degree while fewer hold a BSc
-5. The factor "Restructuring" was the major reason for employees to transfer to another role while the factor "family reasons" was the least one.
+4. The majority of employees hold an MSc degree, while fewer hold a BSc
+5. The factor "Restructuring" was the major reason for employees to transfer to another role, while the factor "family reasons" was the least.
 
 ## KPIs
 1. Number of employees: 108
@@ -75,7 +75,7 @@ Analyzing the data provided the following insights:
 4. Number of distinct states: 10
 
 > [!Note]
-> One feature that I love about Looker Studio is the Reset button that appears on the top left corner of the visual when you interact with the visual. This makes it easy to go back to the original state of that specific visual or the entire dashboard.
+> One feature that I love about Looker Studio is the Reset button that appears in the top left corner of the visual when you interact with the visual. This makes it easy to go back to the original state of that specific visual or the entire dashboard.
 
 
 ## Conclusion
