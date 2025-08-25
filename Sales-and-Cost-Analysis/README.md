@@ -5,7 +5,7 @@
 1. [Overview](#overview)
 2. [Problem Statement](#Problem-Statement)
 3. [Project Objectives](#Project-Objectives)
-4. [Data & Tools](#Data-\&-Tools)
+4. [Data and Tools](#Data-and-Tools)
 5. [Data Cleaning](#Data-Cleaning)
 6. [Data Analysis](#Data-Analysis)
 7. [Data Visualization and Dashboard Design](#Data-Visualization-and-Dashboard-Design)
@@ -40,7 +40,7 @@ While sales have been increasing, the company suspected that profit margins were
 * Detect seasonal trends and monthly performance variations.
 * Provide actionable business recommendations.
 
-## Data & Tools
+## Data and Tools
 Data Source:
 * The data was generated using **ChatGPT**. Below is the prompt used.
 | Figure: Prompt Used to Get the Data |
