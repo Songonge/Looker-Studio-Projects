@@ -102,7 +102,7 @@ Total Quantity = SUM(Sales)
 ```sql
 Profit Margin (%) = (Profit / Sales) × 100
 ```
-```dax
+```sql
 Average Discount = AVERAGE(Discount)
 ```
 
@@ -121,7 +121,7 @@ Average Discount = AVERAGE(Discount)
   * Costs +22.9%	Costs rising slightly faster than sales.
   * Profit	+10.8%	Positive but slower growth than sales.
   * Quantity +17.7%	Higher volume driving sales.
-  * Profit Margin	-9.0%	Margins shrinking due to higher costs.
+  * Profit Margin	-9.0%	Margins, due to higher costs.
   * Avg. Discount	+4.5%	Discounting strategy may be eroding profitability.
 
 ### B. Sales vs. Cost Analysis
