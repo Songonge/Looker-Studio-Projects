@@ -43,6 +43,7 @@ While sales have been increasing, the company suspected that profit margins were
 ## Data and Tools
 Data Source:
 * The data was generated using **ChatGPT**. Below is the prompt used.
+
 | Figure: Prompt Used to Get the Data |
 | :------------: |
 ```
