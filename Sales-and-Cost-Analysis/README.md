@@ -2,40 +2,84 @@
 ***
 
 ## Overview
-________________________________________
-This case study presents an end-to-end analysis of sales and cost data for a small tech company.
-The goal was to identify performance trends, evaluate profitability, and recommend actionable strategies for sustainable growth.
-The analysis was visualized in an interactive dashboard built with Looker Studio.
+This case study presents an end-to-end analysis of sales and cost data for a small tech company. The goal was to identify performance trends, evaluate profitability, and recommend actionable strategies for sustainable growth. The analysis was visualized in an interactive dashboard built with **Looker Studio**.
 
-1. Problem Statement
-While sales have been increasing, the company suspected that profit margins were shrinking.
-Management needed a data-driven view of sales, costs, and discounts across different regions, product categories, and customer segments to:
-•	Understand revenue drivers.
-•	Identify profit leakages.
-•	Optimize pricing and discount strategies.
+## Problem Statement
+While sales have been increasing, the company suspected that profit margins were shrinking. Management needed a data-driven view of sales, costs, and discounts across different regions, product categories, and customer segments to:  
+*	Understand revenue drivers.
+* Identify profit leakages.
+* Optimize pricing and discount strategies.
 
-2. Project Objectives
-•	Analyze Sales, Cost, Profit, Profit Margin, Quantity Sold, and Average Discount.
-•	Compare performance Year-over-Year (YoY).
-•	Identify top-performing and underperforming States, Cities, Sub-Categories, Segments, and Regions.
-•	Detect seasonal trends and monthly performance variations.
-•	Provide actionable business recommendations.
+## Project Objectives
+* Analyze Sales, Cost, Profit, Profit Margin, Quantity Sold, and Average Discount.
+* Compare Year-over-Year (YoY) performance.
+* Identify top-performing and underperforming States, Cities, Sub-Categories, Segments, and Regions.
+* Detect seasonal trends and monthly performance variations.
+* Provide actionable business recommendations.
 
-3. Data & Tools
+## Data & Tools
 Data Source:
-•	Company’s sales transactions dataset (Jan–Jun 2024).
-•	Fields included: Order Date, State, City, Product Sub-Category, Sales Amount, Cost Amount, Discount %, and Quantity Sold.
+* The data was generated using **ChatGPT**. Below is the prompt used.
+| Figure: Prompt Used to Get the Data |
+| :------------: |
+```
+Please create a downloadable csv file that I am going to clean, analyze, and build a dashboard and answer business questions.
+Here is what I want to clean from the data:
+1. Removing duplicates
+2. Handling missing data
+3. Using text functions to fix inconsistent data
+4. Fix errors in some entries
+
+The data should have 500 rows and the following columns: Order ID, Order Date, First Name, Last Name, Customer ID, Customer Segment, Country, City,	State, Postal Code, Region, Product ID,	Category, Sub-Category,	Product Name, Quantity, Cost, Sales, and Discount.
+```
+
+The file downloaded contained:  
+* `510 rows` in total and `20 columns`.
+* Transactions dataset 2023 to 2025.
+* Fields included: Order ID, Order Date, First Name, Last Name, Customer ID, Customer Segment, Country, City,	State, Postal Code, Region, Product ID,	Category, Sub-Category,	Product Name, Quantity, Cost, Sales, and Discount.
+
 Tools Used:
-•	Excel / Google Sheets – Data cleaning & preparation.
-•	Looker Studio – Dashboard creation & visualization.
-•	Calculated Fields:
-o	Profit = Sales – Cost
-o	Profit Margin (%) = (Profit / Sales) × 100
-o	YoY % change = ((Current – Previous) / Previous) × 100
+* **Excel**: Data cleaning & preparation.
+* **Looker Studio**: visualization  Dashboard creation  
 
-4. Dashboard Preview
-(Insert image in your GitHub repo and reference it here)
+## Data Cleaning
+The data cleaning tasks were completed in **Excel** and consisted of:  
+1. Checking and removing duplicates using the "Remove Duplicates" feature: 10 duplicate rows were deleted.
+2. Checking and filling empty cells in the City, Postal Code, and Profit columns. 
+   * The empty cells in the City and Postal Code columns were replaced with "Unknown" since there was not much information to give appropriate values. 
+   * For the Profit column, I filled empty by calculating `Sales - Cost`.
+3. Fixing the text for inconsistent formatting and changing the data type where necessary.
+4. Removing the Country column since it was only displaying the United States.
+5. Creating a column for Full Name, Month, Year, Month No (to sort the Month column by Month No). 
 
+## Data Analysis
+Calculated Fields:
+```sql
+Profit = Sales – Cost
+```
+Calculated Metrics:
+```sql
+Total Sales = SUM(Sales)
+```
+```sql
+Total Costs = SUM(Cost)
+```
+```sql
+Total Profit = SUM(Profit)
+```
+```sql
+Total Quantity = SUM(Sales)
+```
+```sql
+Profit Margin (%) = (Profit / Sales) × 100
+```
+```dax
+Average Discount = AVERAGE(Discount)
+```
+
+## Data Visualization and Dashboard Design
+
+<!---
 5. Analysis & Findings
 Overall Performance (Jan–Jun 2024)
 Metric	Value	YoY Change	Key Insight
@@ -119,7 +163,7 @@ Step 5 — Style Your Dashboard
 9. Conclusion
 The analysis shows the company is in a growth phase but must address margin pressure.
 By fine-tuning its discount and pricing strategy, optimizing costs, and focusing on underperforming regions, the company can maintain revenue growth while improving profitability.
-
+-->
 
 
 
